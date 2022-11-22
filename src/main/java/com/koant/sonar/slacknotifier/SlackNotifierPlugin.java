@@ -87,7 +87,7 @@ public class SlackNotifierPlugin implements Plugin {
         extensions.add(PropertyDefinition.builder(INCLUDE_BRANCH.property())
             .name("Branch enabled")
             .description("Include branch name in slack messages?\nNB: Not supported with free version of SonarQube")
-            .defaultValue("false")
+            .defaultValue("true")
             .type(PropertyType.BOOLEAN)
             .category(CATEGORY)
             .subCategory(SUBCATEGORY)
